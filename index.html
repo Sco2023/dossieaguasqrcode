@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lia Naya · Águas · Mini-dossiê</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FAFAF8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 24px;
+            color: #1a1a1a;
+        }
+        
+        .container {
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 48px;
+        }
+        
+        .artist-name {
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+        }
+        
+        .series-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 42px;
+            font-weight: 300;
+            font-style: italic;
+            color: #2a2a2a;
+        }
+        
+        .dossier-info {
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            color: #888;
+        }
+        
+        .download-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: #1a1a1a;
+            transition: opacity 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            opacity: 0.6;
+        }
+        
+        .arrow {
+            font-size: 24px;
+            font-weight: 300;
+        }
+        
+        .download-text {
+            font-size: 10px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #666;
+        }
+        
+        .website {
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+            color: #999;
+        }
+        
+        .website a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .website a:hover {
+            color: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1 class="artist-name">Lia Naya</h1>
+        
+        <h2 class="series-title">Águas</h2>
+        
+        <p class="dossier-info">Mini-dossiê · 2026</p>
+        
+        <a href="https://www.genspark.ai/api/files/s/yvkE6y7W" 
+           class="download-btn" 
+           download="LiaNaya_MiniDossie_Aguas_2026.pdf">
+            <span class="arrow">↓</span>
+            <span class="download-text">Download PDF</span>
+        </a>
+        
+        <p class="website">
+            <a href="https://www.lianaya.art" target="_blank">lianaya.art</a>
+        </p>
+    </main>
+</body>
+</html>
